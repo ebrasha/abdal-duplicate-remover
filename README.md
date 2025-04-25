@@ -1,64 +1,49 @@
-# **Abdal Duplicate Remover**
+# Abdal Duplicate Remover
 
+<p align="center">
+  <img src="abdal-duplicate-remover.jpg" alt="Abdal Duplicate Remover">
+</p>
 
+[English](README.md) | [فارسی](README_FA.md)
 
-## Screenshot
+## 🚀 Introduction
+Abdal Duplicate Remover is a powerful tool designed to clean and organize text files. Built with .NET 7 and Telerik WinForm UI, it provides a user-friendly interface for removing duplicate lines, sorting content, and performing other text cleaning operations.
 
-![](abdal-duplicate-remover.jpg)
-![](https://github.com/abdal-security-group/abdal-ftp-bruteforce/blob/main/img/abdal-duplicate-remover.jpg)
+## ✨ Features
+- 🧹 Remove Lines with White Space
+- 📈 Ascending Line Sorting
+- 📉 Descending Line Sorting
+- 🔄 Remove Duplicate Lines
+- 📄 Remove Empty Lines
+- 📊 Display Original File Information (name, size, line count)
+- 📋 Display New File Information After Changes
+- 💾 Save New File with Different Name
 
+## 🖥️ System Requirements
+- Windows Operating System
+- Minimum 1GB RAM
+- 300MB Free Disk Space
 
+## 📥 Installation
+1. Download the latest release from the releases page
+2. Extract the ZIP file to your preferred location
+3. Run the Abdal Duplicate Remover executable - no additional installation required!
 
+## 🔧 Usage
+1. Launch the application
+2. Click the "Select File" button to choose your input text file
+3. Select the operations you want to perform
+4. Click "Start" to begin the cleaning process
+5. Save the processed file with a new name
 
-## Made For
+## ❤️ Donation
+If you find this project helpful and would like to support further development, please consider making a donation:
+- [Donate Here](https://ebrasha.com/abdal-donation)
 
-Find and delete duplicates in text files
+## 🤵 Programmer
+Handcrafted with Passion by **Ebrahim Shafiei (EbraSha)**
+- **E-Mail**: Prof.Shafiei@Gmail.com
+- **Telegram**: [@ProfShafiei](https://t.me/ProfShafiei)
 
-**Requires For Developers**
-> Visual Studio 2022 - Telerik WinForm - Chilkat - .Net 7.0 
->
-
-
-Features
-
-- Remove Lines White Space
-- Line Sorting
-- Remove Duplicate
-- Remove Empty Lines
-- Beautiful UI
-- Open Source
-- Very high speed
-- No malware
-
- 
-
- ## ❤️ Donation
-> USDT:      TXLasexoQTjKMoWarikkfYRYWWXtbaVadB
-
-> bitcoin:   19LroTSwWcEBY2XjvgP6X4d6ECZ17U2XsK
-
-> For Iranian People -> MellatBank : 6104-3378-5301-4247
-
-
-## Reporting Issues
-
-If you are facing a configuration issue or something is not working as you expected to be, please use the **Abdal.Group@Gmail.Com** or **Prof.Shafiei@Gmail.com** . Issues on GitLab are also welcomed.
-
-
-
-
-### About Programmer
-Ebrahim Shafiei (EbraSha) (Ready to cooperate with international projects)
-- Email : Prof.Shafiei@Gmail.com
-
-
-## License
-Abdal Duplicate Remover is open-source software licensed under the [MIT license.](https://choosealicense.com/licenses/mit/)
-
-
-## ⚠️ Legal disclaimer ⚠️
-
-Usage of Abdal Duplicate Remover for Spying targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
-
-
-
+## 📜 License
+This project is licensed under the GPLv2 or later License. 

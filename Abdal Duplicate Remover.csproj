@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>Abdal_Security_Group_App</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Version>2.15</Version>
+    <AssemblyVersion>2.15</AssemblyVersion>
+    <FileVersion>2.15</FileVersion>
+    <AssemblyName>Abdal Duplicate Remover</AssemblyName>
+    <ApplicationIcon>Dev\UI\cup.ico</ApplicationIcon>
+    <PackageIcon>128x128.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Dev\**" />
+    <EmbeddedResource Remove="Dev\**" />
+    <None Remove="Dev\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="compile.bat" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Dev\UI\cup.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Dev\Sound\ab-us-two.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Dev\Sound\ab-us.wav" />
+    <None Include="Dev\UI\128x128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ChilkatDnCore" Version="9.50.99" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="8.0.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Runtime.Serialization.Schema" Version="8.0.0" />
+    <PackageReference Include="UI.for.WinForms.AllControls.Net70" Version="2023.2.718" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+</Project>

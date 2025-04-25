@@ -21,12 +21,13 @@ Abdal Duplicate Remover is a powerful tool designed to clean and organize text f
 
 ## 🖥️ System Requirements
 - Windows Operating System
+- No prerequisites are required for execution.
 - Minimum 1GB RAM
 - 300MB Free Disk Space
 
 ## 📥 Installation
 1. Download the latest release from the releases page
-2. Extract the ZIP file to your preferred location
+2. Run the installer file and complete the installation process.
 3. Run the Abdal Duplicate Remover executable - no additional installation required!
 
 ## 🔧 Usage

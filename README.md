@@ -14,8 +14,8 @@
 
 Find and delete duplicates in text files
 
-**Requires**
-> Visual Studio 2019 - Telerik WinForm - Chilkat - .NetFramework 4.7 or above
+**Requires For Developers**
+> Visual Studio 2022 - Telerik WinForm - Chilkat - .Net 7.0 
 >
 
 
